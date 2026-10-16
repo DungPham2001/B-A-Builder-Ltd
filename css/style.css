@@ -114,14 +114,14 @@ ul{margin:0;padding:0;list-style:none;}
   border-radius:10px;
   background:var(--gold-500);
   color:var(--navy-950);
-  font-family:'Poppins',sans-serif;
-  font-weight:800;
-  font-size:0.95rem;
   flex-shrink:0;
 }
-.brand-text{display:flex;flex-direction:column;line-height:1.15;}
-.brand-text strong{font-family:'Poppins',sans-serif;font-size:1.02rem;font-weight:700;}
-.brand-text small{font-size:0.72rem;letter-spacing:0.08em;color:var(--gold-500);text-transform:uppercase;}
+.brand-text{
+  font-family:'Poppins',sans-serif;
+  font-size:1.02rem;
+  font-weight:700;
+  white-space:nowrap;
+}
 
 .main-nav{
   display:flex;
